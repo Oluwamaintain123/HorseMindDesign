@@ -1,0 +1,300 @@
+@media (max-width:945px) {
+
+    /* ===HEADER=== */
+
+    header{
+
+        & nav{
+
+            & ul{
+                gap: 2.3em;
+            }
+        }
+    }
+
+    /* ===BODY=== */
+
+    #body{
+        height: 550px;
+
+        gap: 19em;
+
+        & .cont1{
+
+            h2{
+                font-size: 2.9em;
+            }
+        }
+
+        & .cont2{
+             height: 350px;
+            width: 190px;
+        }
+    }
+
+    /* ===BODY1=== */
+
+    #body1{
+        padding: 5em 2.2em;
+
+        & .about{
+            align-items: center;
+            justify-content: center;
+            gap: 3em;
+
+            & .about1{
+                /* left: 3em; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+
+            & .about2{
+                width: 95%;
+            }
+        }
+    }
+
+    /* ===BODY2=== */
+    
+    #body2{
+
+        & .para{
+            width: 100%;
+        }
+
+        & .services{
+
+            & .serv{
+                width: 650px;
+            }
+        }
+    }
+
+    /* ===BODY3=== */
+
+    #body3{
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===BODY4=== */
+
+    #body4{
+
+        & .para{
+            width: 100%;
+        }
+
+        & .teams{
+
+            & .team{
+                width: 400px;
+
+                & .image:hover{
+                    flex: 1 1 150px;
+                }
+            }
+        }
+    }
+
+    /* ===BODY7=== */
+
+    #body7{
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+}
+
+@media (max-width:855px) {
+
+    /* ===BODY=== */
+
+    #body{
+        gap: 13em;
+    }
+}
+
+@media (max-width:720px) {
+
+    header{
+        width: 100%;
+
+        & .logo{
+            font-size: 1.1em;
+        }
+
+        & nav{
+            
+            & ul{
+                flex-direction: column;
+                gap: 0.8em;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: var(--color1);
+                width: 130px;
+                height: 300px;
+                z-index: -1;
+                justify-content: center;
+                /* transform: scaleY(); */
+                display: none;
+                transition: ease .2s;
+            }
+            
+            & .barss{
+                display: block;
+                font-size: 1.3em;
+            }
+
+            & barss:active{
+                
+                & ul{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    /* ===BODY=== */
+
+    #body{
+        flex-direction: column;
+        gap: 4em;
+        padding-top: 4.5em;
+        padding-bottom: 2em;
+
+        & .cont1{
+
+            & h2{
+                font-size: 1.7em;
+                text-align: center;
+            }
+        }
+    }
+
+} 
+
+@media (max-width:390px) {
+
+    header{
+        width: 100%;
+
+        & .logo{
+            font-size: 1.1em;
+        }
+
+        & nav{
+            
+            & ul{
+                flex-direction: column;
+                gap: 0.8em;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: var(--color1);
+                width: 130px;
+                height: 300px;
+                z-index: -1;
+                justify-content: center;
+                /* transform: scaleY(); */
+                display: none;
+                transition: ease .2s;
+            }
+            
+            & .barss{
+                display: block;
+                font-size: 1.3em;
+            }
+
+            & barss:active{
+                
+                & ul{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    /* ===BODY=== */
+
+    & #body{
+        height: 670px;
+        flex-direction: column;
+        gap: 2em;
+
+        & .cont1{
+            
+            & h2{
+                font-size: 1.9em;
+            }
+        }        
+    }
+
+    /* ===BODY1=== */
+
+    #body{
+        padding: 1em 0;
+
+        & h3{
+            font-size: 1.1em;
+        }
+
+        & .about{
+            justify-content: center;
+            align-items: center;
+            
+            & .about1{
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+        }
+    }
+
+    /* ===BODY1=== */
+
+    #body1{
+        
+        & .services{
+
+            .serv{
+                
+                & p{
+                    width: 500px;
+                }
+            }
+        }
+    }
+
+    /* ===BODY2=== */
+
+    #body2{
+
+        & .services{
+
+            & .serv{
+                width: 450px;
+            }
+        }
+    }
+
+    /* ===BODY4=== */
+
+    #body4{
+
+        & .teams{
+
+            & .team{
+                width: 480px;
+            }
+        }
+    }
+}

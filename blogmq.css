@@ -1,0 +1,11 @@
+@media (max-width:390px) {
+
+    /* ===BODY5=== */
+
+    #body1{
+
+        & .para{
+            width: 100%;
+        }
+    }
+}

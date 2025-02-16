@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root{
+    --color1: rgb(150, 152, 154);
+    --color2: rgb(157, 211, 175);
+    --color3: rgb(0, 0, 0);
+    --color4: rgba(219, 219, 219, 0.589);
+    --color5: rgba(157, 211, 175, 0.678);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+/* ===BODY1=== */
+
+#body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 3.5em;
+    box-shadow: 0 0 7px var(--color2);
+
+    & h4{
+        font-size: 1.5em;
+        text-transform: uppercase;
+
+        & span{
+            color: var(--color2);
+        }
+    }
+
+    & .para{
+        letter-spacing: 1.4px;
+        width: 80%;
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    & .blogs{
+        display: flex;
+        gap: 1em;
+        margin: 1em 0;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        & .blog{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 0 7px var(--color2);
+            padding: 1em;
+            cursor: pointer;
+            width: 370px;
+
+            & .empty{
+                height: 300px;
+                width: 250px;
+                border-radius: 10px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(./111.jpg);
+                margin-bottom: 0.6em;
+            }
+
+            & .top{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+
+                & small{
+                    color: var(--color2);
+                }
+
+                & h5{
+                    margin: 0.5em 0;
+                }
+
+                & p{
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+
+    /* & a{
+        color: var(--color3);
+        background-color: var(--color2);
+        padding: 5px 10px;
+        margin-top: 1.3em;
+        border-radius: 10px;
+        font-weight: 500;
+    } */
+}
