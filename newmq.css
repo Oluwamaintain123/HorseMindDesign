@@ -180,6 +180,19 @@
         }
     }
 
+    #body2{
+
+        & .services{
+
+            & .serv{
+
+                & p{
+                    width: 80%;
+                }
+            }
+        }
+    }
+
 } 
 
 @media (max-width:390px) {
